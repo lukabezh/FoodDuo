@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Food Recipe</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://png.pngtree.com/element_our/png/20180930/food-icon-design-vector-png_120564.jpg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
+        <h1>Food<b>Duo</b></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="./starthere.html" target="_blank">Stars Here</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </nav>
+      <div class="buttons">
+        <div class="btn">
+          <a href="#signinPopup" class="signin">Sign In</a>
+          <a href="#signupPopup" class="signup">Sign Up</a>
+        </div>
+      </div>
+      <div class="burger-menu">&#9776;</div>
+    </header>
+    <!-- POPUP -->
+    <!-- sign in -->
+    <div class="popup" id="signinPopup">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <div class="bottom-div">
+          <button type="submit" class="btn btn-warning">Submit</button
+          ><a href="#" class="close-button">X</a>
+        </div>
+      </form>
+    </div>
+    <!-- sign up -->
+    <div class="popup" id="signupPopup">
+      <form class="registerform">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">UserName</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+          <div id="emailHelp" class="form-text">
+            Use At Least 8 Characters One Uppercase Letter One Lowercase Letter
+            And One Number In Your Password.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >Confirm Password</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >I agree Terms & Conditions</label
+          >
+        </div>
+        <div class="bottom-div">
+          <button type="submit" class="btn btn-warning">Register</button>
+          <a href="#" class="close-button">X</a>
+        </div>
+      </form>
+    </div>
+    <!-- FIRST SECTION -->
+    <section class="grid">
+      <div class="content">
+        <div class="content-left">
+          <div class="info">
+            <h2>
+              Order Your Best<br />
+              Food anytime
+            </h2>
+            <p>
+              Hey, Your Delicious food is waiting for you <br />
+              Quam nulla sapiente totam esse, Quidem sed vel dignissimos aut
+              deserunt!<br />
+            </p>
+          </div>
+          <button>Explore food</button>
+        </div>
+        <div class="content-right">
+          <img src="./image/pexels-photo-1099680.jpeg" alt="keisar" />
+        </div>
+      </div>
+    </section>
+    <!-- SECOND SECTION -->
+    <section class="gallery" id="gallery">
+      <h2 style="margin: 50px 100px; font-weight: 700; text-align: center">
+        Food Gallery
+      </h2>
+      <div class="image-container">
+        <img
+          src="https://images.pexels.com/photos/751798/pexels-photo-751798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="burger"
+          class="gallery-image"
+        />
+        <img
+          src="https://images.pexels.com/photos/884596/pexels-photo-884596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="chicken"
+          class="gallery-image"
+        />
+        <img
+          src="https://images.pexels.com/photos/1893561/pexels-photo-1893561.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="sushi"
+          class="gallery-image"
+        />
+        <img
+          src="https://images.pexels.com/photos/3975044/pexels-photo-3975044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="chicken"
+          class="gallery-image"
+        />
+        <img
+          src="https://images.pexels.com/photos/5175620/pexels-photo-5175620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="chicken"
+          class="gallery-image"
+        />
+        <img
+          src="https://images.pexels.com/photos/884596/pexels-photo-884596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="chicken"
+          class="gallery-image"
+        />
+      </div>
+    </section>
+    <hr />
+    <section class="menu-bar" id="menu">
+      <h2>Menu Bar</h2>
+      <div class="card-container">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-outline-warning">Go somewhere</a>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-outline-warning">Go somewhere</a>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-outline-warning">Go somewhere</a>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-outline-warning">Go somewhere</a>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-outline-warning">Go somewhere</a>
+          </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-outline-warning">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <!-- About Us -->
+    <section id="about-us" class="about-us">
+      <h2>About Us</h2>
+      <div class="about-us-div">
+        <div class="about-us-img">
+          <img
+            src="https://images.pexels.com/photos/1639565/pexels-photo-1639565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=""
+          />
+        </div>
+        <div class="about-us-content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            reprehenderit nemo modi ipsum error labore doloribus unde
+            recusandae? Possimus, officia enim consectetur illo iure provident
+            quia reiciendis nisi nostrum autem. Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Tempore consequuntur necessitatibus
+            ipsum? Qui repudiandae nam voluptatum delectus quaerat itaque
+            excepturi quibusdam suscipit hic. Corrupti nihil cumque possimus
+            commodi, consequuntur veniam? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Unde odio dolor aut vero? Laudantium saepe
+            doloribus eos error, porro cupiditate repudiandae autem aperiam
+            earum nobis mollitia iusto, sed, incidunt provident!
+          </p>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
